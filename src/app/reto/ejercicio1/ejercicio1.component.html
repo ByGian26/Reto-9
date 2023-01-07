@@ -1,0 +1,11 @@
+<form class="container">
+  <section class="row">
+    <p >
+      <input type="checkbox" value="{{ valor }}"  (click)="Generar()"> Is Active
+    </p>
+    <section>
+      <img src="../../../assets/img/logoAngular.png" *ngIf="mostrar" class="rounded mx-auto d-block">
+      <p *ngIf="mostrar" class="text-center-justify fw-bold">{{mensaje}}</p>
+    </section>
+  </section>
+</form>
